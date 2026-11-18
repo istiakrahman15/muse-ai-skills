@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate muse-skills-100: every skill must be a valid SKILL.md.
+"""Validate muse-ai-skills: every skill must be a valid SKILL.md.
 
 Checks:
 - skills/<name>/SKILL.md exists, has frontmatter with name + description
@@ -37,8 +37,8 @@ def main():
         d for d in os.listdir(SKILLS_DIR)
         if os.path.isdir(os.path.join(SKILLS_DIR, d))
     )
-    if len(folders) != 100:
-        errors.append(f"expected 100 skill folders, found {len(folders)}")
+    if len(folders) < 100:
+        errors.append(f"expected at least 100 skill folders, found {len(folders)}")
     seen = set()
     for name in folders:
         if not re.fullmatch(r"[a-z0-9][a-z0-9\-_]*", name):
@@ -80,7 +80,7 @@ def main():
         for e in errors:
             print(f"  - {e}")
         return 1
-    print(f"OK: 100 skills, skills.json matches, all frontmatter valid.")
+    print(f"OK: {len(folders)} skills, skills.json matches, all frontmatter valid.")
     return 0
 
 
