@@ -1,6 +1,6 @@
-# Contributing to Muse Skills 100
+# Contributing to Muse AI Skills
 
-Thanks for helping. This pack stays at exactly **100 skills** — a new skill replaces the weakest one in its category, or waits for a curator to make room. Quality over quantity.
+Thanks for helping. This pack grows by 2 skills every 2 days — a new skill joins the pack, it never pushes another one out. Quality over quantity.
 
 ## Add a skill
 
