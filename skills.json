@@ -1,0 +1,802 @@
+[
+  {
+    "name": "getting-started-with-muse-skills",
+    "description": "Honest onboarding to Muse skills: what they are, SKILL.md anatomy, how to actually use one in chat today, how to write your own, and safety norms.",
+    "category": "web-development",
+    "path": "skills/getting-started-with-muse-skills",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/getting-started-with-muse-skills",
+    "license": "MIT"
+  },
+  {
+    "name": "nextjs-pro",
+    "description": "Idiomatic Next.js: App Router, Server Components, data fetching/caching, and production deployment. Use when writing, reviewing, or structuring Next.js applications.",
+    "category": "web-development",
+    "path": "skills/nextjs-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/nextjs-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "react-pro",
+    "description": "Write professional React: hooks discipline, composition, performance, error boundaries, and modern patterns. Use for any React development beyond basics.",
+    "category": "web-development",
+    "path": "skills/react-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/react-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "tailwind-pro",
+    "description": "Professional Tailwind CSS: utility-first workflow, design tokens, component extraction, and maintainable styling. Use when writing, reviewing, or structuring Tailwind-based UIs.",
+    "category": "web-development",
+    "path": "skills/tailwind-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/tailwind-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "typescript-pro",
+    "description": "Idiomatic TypeScript: strict typing, generics, discriminated unions, project setup, and type-driven design. Use when writing or reviewing TypeScript, or configuring TS projects.",
+    "category": "web-development",
+    "path": "skills/typescript-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/typescript-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "javascript-pro",
+    "description": "Idiomatic modern JavaScript: ES2022+ features, async patterns, modules, and runtime behavior mastery. Use when writing, reviewing, or debugging JavaScript.",
+    "category": "web-development",
+    "path": "skills/javascript-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/javascript-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "frontend-testing",
+    "description": "Test frontend code: unit, component, E2E, visual regression, and accessibility tests with a sane pyramid. Use for reliable UI quality.",
+    "category": "web-development",
+    "path": "skills/frontend-testing",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/frontend-testing",
+    "license": "MIT"
+  },
+  {
+    "name": "web-performance",
+    "description": "Make websites fast: Core Web Vitals, loading optimization, rendering performance, and measurement workflows. Use when pages are slow or targets must be met.",
+    "category": "web-development",
+    "path": "skills/web-performance",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/web-performance",
+    "license": "MIT"
+  },
+  {
+    "name": "web-accessibility",
+    "description": "Build accessible websites: semantic HTML, ARIA, keyboard support, focus management, and WCAG testing. Use for inclusive, compliant web development.",
+    "category": "web-development",
+    "path": "skills/web-accessibility",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/web-accessibility",
+    "license": "MIT"
+  },
+  {
+    "name": "pwa-patterns",
+    "description": "Build Progressive Web Apps: manifests, service workers, offline strategies, installability, and push. Use for app-like web experiences.",
+    "category": "web-development",
+    "path": "skills/pwa-patterns",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/pwa-patterns",
+    "license": "MIT"
+  },
+  {
+    "name": "nodejs-pro",
+    "description": "Production-grade Node.js guidance — event loop, modules, tooling, debugging, and deployment best practices.",
+    "category": "backend-and-apis",
+    "path": "skills/nodejs-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/nodejs-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "express-pro",
+    "description": "Express.js API guidance — routing, middleware architecture, error handling, security hardening, and production setup.",
+    "category": "backend-and-apis",
+    "path": "skills/express-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/express-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "supabase-pro",
+    "description": "Supabase backend development — Postgres, Auth, Storage, and Row Level Security — use when building on Supabase.",
+    "category": "backend-and-apis",
+    "path": "skills/supabase-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/supabase-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "api-integration-specialist",
+    "description": "Integrate third-party APIs reliably: auth, pagination, retries, webhooks, rate limits, and contract testing. Use when connecting to external REST/GraphQL APIs or building resilient API clients.",
+    "category": "backend-and-apis",
+    "path": "skills/api-integration-specialist",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/api-integration-specialist",
+    "license": "MIT"
+  },
+  {
+    "name": "auth-pro",
+    "description": "Implement web authentication: sessions, OAuth/OIDC, MFA, passwordless, and session security. Use when adding login and access control to apps.",
+    "category": "backend-and-apis",
+    "path": "skills/auth-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/auth-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "rest-api-pro",
+    "description": "REST API design guidance — resource modeling, versioning, pagination, auth, error formats, and documentation.",
+    "category": "backend-and-apis",
+    "path": "skills/rest-api-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/rest-api-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "graphql-pro",
+    "description": "GraphQL API guidance — schema design, resolvers, DataLoader, pagination, auth, and production operations.",
+    "category": "backend-and-apis",
+    "path": "skills/graphql-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/graphql-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "postgres-pro",
+    "description": "Deep PostgreSQL know-how — indexing, tuning, JSONB, and administration — use when working with or troubleshooting Postgres.",
+    "category": "backend-and-apis",
+    "path": "skills/postgres-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/postgres-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "prisma-pro",
+    "description": "Prisma ORM mastery — schema design, migrations, and query optimization — use when building with Prisma.",
+    "category": "backend-and-apis",
+    "path": "skills/prisma-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/prisma-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "drizzle-pro",
+    "description": "Drizzle ORM guidance — schema-as-code, relational queries, migrations, and SQL-first TypeScript data access.",
+    "category": "backend-and-apis",
+    "path": "skills/drizzle-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/drizzle-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "ai-agents-pro",
+    "description": "Design and build LLM agents: ReAct loops, tool schemas, planning, memory, guardrails, evals, and human-in-the-loop. Use when building autonomous multi-step AI systems.",
+    "category": "ai-and-agents",
+    "path": "skills/ai-agents-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/ai-agents-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "agents-pro",
+    "description": "AI agent guidance — agent architecture, tool design, planning loops, guardrails, evaluation, and production agents.",
+    "category": "ai-and-agents",
+    "path": "skills/agents-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/agents-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "ai-chatbot-builder",
+    "description": "Build AI chatbots end to end — conversation design, persona, retrieval grounding, escalation, and deployment. Use when creating a chatbot for support, sales, or internal assistance.",
+    "category": "ai-and-agents",
+    "path": "skills/ai-chatbot-builder",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/ai-chatbot-builder",
+    "license": "MIT"
+  },
+  {
+    "name": "ai-engineer",
+    "description": "Ship AI features to production — model selection, evals, latency/cost optimization, guardrails, monitoring, and iteration loops. Use when turning an LLM prototype into a reliable product feature.",
+    "category": "ai-and-agents",
+    "path": "skills/ai-engineer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/ai-engineer",
+    "license": "MIT"
+  },
+  {
+    "name": "prompt-engineering-pro",
+    "description": "Prompt engineering guidance — system prompts, few-shot, chain-of-thought, structured output, and evaluation-driven iteration.",
+    "category": "ai-and-agents",
+    "path": "skills/prompt-engineering-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/prompt-engineering-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "rag-pro",
+    "description": "RAG guidance — chunking, retrieval tuning, hybrid search, reranking, citations, evaluation, and production RAG.",
+    "category": "ai-and-agents",
+    "path": "skills/rag-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/rag-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "mcp-builder",
+    "description": "Design and build Model Context Protocol servers: tools, resources, prompts, transports, and security. Use when exposing APIs, data, or capabilities to AI assistants via MCP.",
+    "category": "ai-and-agents",
+    "path": "skills/mcp-builder",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/mcp-builder",
+    "license": "MIT"
+  },
+  {
+    "name": "langchain-pro",
+    "description": "LangChain guidance — chains, agents, tools, RAG pipelines, LangGraph, evaluation, and production hardening.",
+    "category": "ai-and-agents",
+    "path": "skills/langchain-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/langchain-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "llm-pro",
+    "description": "Integrate LLMs into apps: prompting, structured output, streaming, function calling, RAG, evals, cost and latency control. Use when adding language-model features to software.",
+    "category": "ai-and-agents",
+    "path": "skills/llm-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/llm-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "ai-safety",
+    "description": "Practice AI safety across the lifecycle — risk assessment, alignment concepts, evaluation, deployment safeguards, and governance. Use when building or deploying AI systems responsibly.",
+    "category": "ai-and-agents",
+    "path": "skills/ai-safety",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/ai-safety",
+    "license": "MIT"
+  },
+  {
+    "name": "github-pro",
+    "description": "Master GitHub: Actions workflows, PR automation, branch protection, Codespaces, and API/CLI usage. Use when building GitHub workflows or managing GitHub repos.",
+    "category": "github-and-devops",
+    "path": "skills/github-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/github-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "github-actions-pro",
+    "description": "GitHub Actions guidance — workflow design, caching, matrices, OIDC, reusable workflows, and secure CI/CD.",
+    "category": "github-and-devops",
+    "path": "skills/github-actions-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/github-actions-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "git-pro",
+    "description": "Advanced Git — rebasing, history surgery, bisecting, and recovery — use when Git gets complicated or things go wrong.",
+    "category": "github-and-devops",
+    "path": "skills/git-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/git-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "vercel-pro",
+    "description": "Vercel guidance — deployments, edge/serverless functions, ISR, preview environments, analytics, and cost control.",
+    "category": "github-and-devops",
+    "path": "skills/vercel-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/vercel-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "docker-pro",
+    "description": "Docker guidance — Dockerfile best practices, multi-stage builds, Compose, networking, volumes, and image security.",
+    "category": "github-and-devops",
+    "path": "skills/docker-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/docker-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "ci-cd-specialist",
+    "description": "Design and operate CI/CD pipelines: fast feedback, deployment strategies, environments, and pipeline reliability. Use when building, fixing, or scaling build and deploy pipelines.",
+    "category": "github-and-devops",
+    "path": "skills/ci-cd-specialist",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/ci-cd-specialist",
+    "license": "MIT"
+  },
+  {
+    "name": "code-review-pro",
+    "description": "Professional code review craft: review strategy, feedback that lands, reviewer efficiency, and team review culture. Use when reviewing code or improving a team's review process.",
+    "category": "github-and-devops",
+    "path": "skills/code-review-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/code-review-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "debugging-pro",
+    "description": "Systematic debugging: reproduce, isolate, hypothesize, verify — with tooling for hard bugs. Use when stuck on a bug, flaky failure, or production incident.",
+    "category": "github-and-devops",
+    "path": "skills/debugging-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/debugging-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "testing-pro",
+    "description": "Professional testing craft: test design, doubles, boundaries, maintainable suites, and testing strategy. Use when writing tests, designing test suites, or improving testing practice.",
+    "category": "github-and-devops",
+    "path": "skills/testing-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/testing-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "documentation-pro",
+    "description": "Write documentation developers actually use: READMEs, API docs, ADRs, runbooks, and docs-as-code workflows. Use when writing or improving technical documentation.",
+    "category": "github-and-devops",
+    "path": "skills/documentation-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/documentation-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "email-triage",
+    "description": "Reach and sustain inbox zero: triage workflows, filters, templates, batching, and unsubscribing systems. Use when email eats your day or your inbox has become an anxiety source.",
+    "category": "productivity",
+    "path": "skills/email-triage",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/email-triage",
+    "license": "MIT"
+  },
+  {
+    "name": "calendar-pro",
+    "description": "Run your calendar like a pro: timeboxing, calendar layering, meeting hygiene, buffer design, and weekly planning rituals. Use when your schedule feels chaotic or your calendar controls you instead of the reverse.",
+    "category": "productivity",
+    "path": "skills/calendar-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/calendar-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "deep-work-planner",
+    "description": "Plan and protect deep work: scheduling focus blocks, task selection, shutdown rituals, and measuring depth. Use when important work never gets sustained attention or days fill with shallow tasks.",
+    "category": "productivity",
+    "path": "skills/deep-work-planner",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/deep-work-planner",
+    "license": "MIT"
+  },
+  {
+    "name": "note-taker",
+    "description": "Take notes that you'll actually use: methods for meetings, lectures, reading, and research, plus processing workflows. Use when improving how you capture and retain information from any source.",
+    "category": "productivity",
+    "path": "skills/note-taker",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/note-taker",
+    "license": "MIT"
+  },
+  {
+    "name": "task-manager",
+    "description": "Design a personal task management system that actually works: capture, clarify, organize, review, and engage across any tool. Use when choosing or fixing how you manage tasks, or evaluating task apps.",
+    "category": "productivity",
+    "path": "skills/task-manager",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/task-manager",
+    "license": "MIT"
+  },
+  {
+    "name": "second-brain",
+    "description": "Build a second brain: a trusted external system for capturing, organizing, and retrieving everything you learn and need. Use when knowledge is scattered or you want ideas to compound over time.",
+    "category": "productivity",
+    "path": "skills/second-brain",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/second-brain",
+    "license": "MIT"
+  },
+  {
+    "name": "notion-pro",
+    "description": "Master advanced Notion: relational databases, formulas, rollups, templates, automations, and workspace architecture. Use when building or optimizing Notion systems for projects, knowledge, or teams.",
+    "category": "productivity",
+    "path": "skills/notion-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/notion-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "google-workspace-pro",
+    "description": "Master Google Workspace: Gmail, Drive, Docs, Sheets, Calendar, and Meet at power-user level. Use when living in Google's ecosystem and wanting speed, organization, and collaboration mastery.",
+    "category": "productivity",
+    "path": "skills/google-workspace-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/google-workspace-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "meeting-optimizer",
+    "description": "Make meetings fewer, shorter, and better: agenda design, facilitation, async alternatives, and meeting audits. Use when calendars are full of low-value meetings or you're redesigning team collaboration norms.",
+    "category": "productivity",
+    "path": "skills/meeting-optimizer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/meeting-optimizer",
+    "license": "MIT"
+  },
+  {
+    "name": "weekly-review",
+    "description": "Run a weekly review that keeps your whole system trusted: capture, clarify, calendar, and project check-ins. Use when tasks slip, the system goes stale, or weeks feel reactive.",
+    "category": "productivity",
+    "path": "skills/weekly-review",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/weekly-review",
+    "license": "MIT"
+  },
+  {
+    "name": "daily-briefing",
+    "description": "Build a morning briefing ritual with Muse: overnight priorities, today's calendar, weather-aware planning, and top 3 focus items as a concise chat summary.",
+    "category": "everyday-assistant",
+    "path": "skills/daily-briefing",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/daily-briefing",
+    "license": "MIT"
+  },
+  {
+    "name": "budget-checkin",
+    "description": "Run a monthly money check-in with an AI assistant: categorize spending, spot leaks, set one savings target, and view it through the 50/30/20 lens — judgment-free. Use once a month to stay aware of where your money goes. General educational information, not financial advice.",
+    "category": "everyday-assistant",
+    "path": "skills/budget-checkin",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/budget-checkin",
+    "license": "MIT"
+  },
+  {
+    "name": "meal-plan-generator",
+    "description": "Build a flexible weekly meal plan with an AI assistant: start from your preferences and constraints, get a 7-day plan with a grocery list, batch-cook smartly, and use up leftovers. Use for weekly cooking, saving money on food, or eating better without rigidity.",
+    "category": "everyday-assistant",
+    "path": "skills/meal-plan-generator",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/meal-plan-generator",
+    "license": "MIT"
+  },
+  {
+    "name": "travel-day-planner",
+    "description": "Plan day trips and travel days with an AI assistant: build itineraries around real open hours and transit, make packing checklists, set a daily budget, and prepare rain-day backup plans. Use for day trips, city days, or any single travel day.",
+    "category": "everyday-assistant",
+    "path": "skills/travel-day-planner",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/travel-day-planner",
+    "license": "MIT"
+  },
+  {
+    "name": "habit-tracker-coach",
+    "description": "Build habits with your AI assistant as coach: start tiny, stack habits onto existing routines, do quick daily check-ins, repair streaks with the never-miss-twice rule, and review weekly. Use when starting exercise, reading, meditation, or any daily routine.",
+    "category": "everyday-assistant",
+    "path": "skills/habit-tracker-coach",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/habit-tracker-coach",
+    "license": "MIT"
+  },
+  {
+    "name": "inbox-zero-coach",
+    "description": "Tame email overload with Muse as your coach: the 4D triage method (delete/delegate/respond/defer/file), batching, reply templates, unsubscribing, and a daily 15-minute routine.",
+    "category": "everyday-assistant",
+    "path": "skills/inbox-zero-coach",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/inbox-zero-coach",
+    "license": "MIT"
+  },
+  {
+    "name": "personal-research-assistant",
+    "description": "Research anything well with an AI assistant: frame balanced questions, compare options in tables, demand sources with dates, and spot weak claims. Use when comparing products, checking news, or deciding on health, travel, or tech topics.",
+    "category": "everyday-assistant",
+    "path": "skills/personal-research-assistant",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/personal-research-assistant",
+    "license": "MIT"
+  },
+  {
+    "name": "reminder-system",
+    "description": "Build a reliable reminder setup with Muse: capture-everything habit, due dates vs ticklers, recurring reminders, follow-up checks, and escalation when things slip.",
+    "category": "everyday-assistant",
+    "path": "skills/reminder-system",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/reminder-system",
+    "license": "MIT"
+  },
+  {
+    "name": "meeting-prep-brief",
+    "description": "Prepare for any meeting in minutes: build a 5-minute brief (purpose, people, your goal, questions, materials), research attendees, and capture decisions and action items afterward. Use when someone asks to prep for a meeting, has a big call coming up, or wants a debrief after one.",
+    "category": "everyday-assistant",
+    "path": "skills/meeting-prep-brief",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/meeting-prep-brief",
+    "license": "MIT"
+  },
+  {
+    "name": "gift-idea-finder",
+    "description": "Find genuinely good gifts: profile the recipient (interests, constraints, budget), match ideas to the occasion, weigh experience vs object gifts, avoid generic picks, and plan presentation and timing. Use when someone asks what to get for a birthday, holiday, wedding, host, or thank-you.",
+    "category": "everyday-assistant",
+    "path": "skills/gift-idea-finder",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/gift-idea-finder",
+    "license": "MIT"
+  },
+  {
+    "name": "seo-specialist",
+    "description": "Execute technical and strategic SEO — audits, keyword strategy, link building, and sustainable organic growth.",
+    "category": "business-and-marketing",
+    "path": "skills/seo-specialist",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/seo-specialist",
+    "license": "MIT"
+  },
+  {
+    "name": "seo-content-writer",
+    "description": "Write search-optimized content that ranks — briefs, outlines, drafts, and on-page optimization for articles and landing pages.",
+    "category": "business-and-marketing",
+    "path": "skills/seo-content-writer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/seo-content-writer",
+    "license": "MIT"
+  },
+  {
+    "name": "content-strategist",
+    "description": "Design content strategies — audience research, pillar topics, editorial calendars, and measurement frameworks that tie content to revenue.",
+    "category": "business-and-marketing",
+    "path": "skills/content-strategist",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/content-strategist",
+    "license": "MIT"
+  },
+  {
+    "name": "copywriter",
+    "description": "Write persuasive copy for ads, landing pages, emails, and more — headlines, hooks, and calls-to-action that convert.",
+    "category": "business-and-marketing",
+    "path": "skills/copywriter",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/copywriter",
+    "license": "MIT"
+  },
+  {
+    "name": "email-marketer",
+    "description": "Run email marketing end-to-end — list building, campaigns, automation flows, deliverability, and performance optimization.",
+    "category": "business-and-marketing",
+    "path": "skills/email-marketer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/email-marketer",
+    "license": "MIT"
+  },
+  {
+    "name": "social-media-manager",
+    "description": "Plan, create, and manage social media presence — content calendars, platform strategy, engagement, and performance reporting.",
+    "category": "business-and-marketing",
+    "path": "skills/social-media-manager",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/social-media-manager",
+    "license": "MIT"
+  },
+  {
+    "name": "growth-hacker",
+    "description": "Run growth experiments — acquisition loops, activation, retention, and referral systems driven by rapid testing.",
+    "category": "business-and-marketing",
+    "path": "skills/growth-hacker",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/growth-hacker",
+    "license": "MIT"
+  },
+  {
+    "name": "business-plan-writer",
+    "description": "Write complete business plans — executive summary, market analysis, financials, and investor-ready narratives.",
+    "category": "business-and-marketing",
+    "path": "skills/business-plan-writer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/business-plan-writer",
+    "license": "MIT"
+  },
+  {
+    "name": "startup-advisor",
+    "description": "Advise early-stage startups — idea validation, founder decisions, fundraising strategy, and avoiding common failure modes.",
+    "category": "business-and-marketing",
+    "path": "skills/startup-advisor",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/startup-advisor",
+    "license": "MIT"
+  },
+  {
+    "name": "community-manager",
+    "description": "Build and manage brand communities — engagement strategy, moderation, advocacy programs, and community-led growth.",
+    "category": "business-and-marketing",
+    "path": "skills/community-manager",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/community-manager",
+    "license": "MIT"
+  },
+  {
+    "name": "figma-expert",
+    "description": "Master Figma workflows with auto layout, components, variables, prototyping, and team collaboration.",
+    "category": "design-and-creative",
+    "path": "skills/figma-expert",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/figma-expert",
+    "license": "MIT"
+  },
+  {
+    "name": "design-systems",
+    "description": "Build and govern scalable design systems with tokens, components, documentation, and adoption strategy.",
+    "category": "design-and-creative",
+    "path": "skills/design-systems",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/design-systems",
+    "license": "MIT"
+  },
+  {
+    "name": "ui-ux-designer",
+    "description": "Design user interfaces and experiences from research and flows to wireframes, mockups, and usability testing.",
+    "category": "design-and-creative",
+    "path": "skills/ui-ux-designer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/ui-ux-designer",
+    "license": "MIT"
+  },
+  {
+    "name": "web-designer",
+    "description": "Design modern, responsive websites with UX fundamentals, visual systems, and developer-ready specs.",
+    "category": "design-and-creative",
+    "path": "skills/web-designer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/web-designer",
+    "license": "MIT"
+  },
+  {
+    "name": "brand-identity",
+    "description": "Build complete brand identity systems with strategy, visual language, voice, and usage guidelines.",
+    "category": "design-and-creative",
+    "path": "skills/brand-identity",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/brand-identity",
+    "license": "MIT"
+  },
+  {
+    "name": "color-theory",
+    "description": "Apply color theory with palette building, harmony, psychology, contrast, and accessibility standards.",
+    "category": "design-and-creative",
+    "path": "skills/color-theory",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/color-theory",
+    "license": "MIT"
+  },
+  {
+    "name": "landing-page-designer",
+    "description": "Design high-converting landing pages with message hierarchy, social proof, and CTA optimization.",
+    "category": "design-and-creative",
+    "path": "skills/landing-page-designer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/landing-page-designer",
+    "license": "MIT"
+  },
+  {
+    "name": "ai-image-prompting",
+    "description": "Craft effective AI image prompts with structured syntax, style control, and iterative refinement techniques.",
+    "category": "design-and-creative",
+    "path": "skills/ai-image-prompting",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/ai-image-prompting",
+    "license": "MIT"
+  },
+  {
+    "name": "presentation-designer",
+    "description": "Design compelling slide decks with narrative structure, visual clarity, and delivery-ready polish.",
+    "category": "design-and-creative",
+    "path": "skills/presentation-designer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/presentation-designer",
+    "license": "MIT"
+  },
+  {
+    "name": "logo-designer",
+    "description": "Design distinctive, versatile logos through research, concept exploration, and systematic refinement.",
+    "category": "design-and-creative",
+    "path": "skills/logo-designer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/logo-designer",
+    "license": "MIT"
+  },
+  {
+    "name": "sql-pro",
+    "description": "Expert SQL patterns for complex queries, optimization, and cross-database portability — use when writing, tuning, or debugging SQL.",
+    "category": "data-and-security",
+    "path": "skills/sql-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/sql-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "mongodb-pro",
+    "description": "MongoDB modeling, aggregation pipelines, and operations — use when designing schemas or tuning Mongo queries.",
+    "category": "data-and-security",
+    "path": "skills/mongodb-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/mongodb-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "redis-pro",
+    "description": "Redis data structures, caching strategies, and production operations — use when adding caching, queues, or rate limiting with Redis.",
+    "category": "data-and-security",
+    "path": "skills/redis-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/redis-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "owasp-security",
+    "description": "Apply OWASP frameworks (Top 10, ASVS, SAMM, MASVS, Cheat Sheets) to design, test, and harden web and mobile applications.",
+    "category": "data-and-security",
+    "path": "skills/owasp-security",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/owasp-security",
+    "license": "MIT"
+  },
+  {
+    "name": "secrets-manager",
+    "description": "Design secrets management — vaulting, rotation, least-privilege access, and eliminating hardcoded credentials.",
+    "category": "data-and-security",
+    "path": "skills/secrets-manager",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/secrets-manager",
+    "license": "MIT"
+  },
+  {
+    "name": "password-auditor",
+    "description": "Audit password hygiene and authentication controls — policy design, credential exposure checks, and migration to modern auth.",
+    "category": "data-and-security",
+    "path": "skills/password-auditor",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/password-auditor",
+    "license": "MIT"
+  },
+  {
+    "name": "threat-modeler",
+    "description": "Run structured threat-modeling sessions (STRIDE, attack trees, DREAD) to find design-level flaws before code is written.",
+    "category": "data-and-security",
+    "path": "skills/threat-modeler",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/threat-modeler",
+    "license": "MIT"
+  },
+  {
+    "name": "incident-responder",
+    "description": "Lead security incident response end to end — preparation, detection, containment, eradication, recovery, and lessons learned.",
+    "category": "data-and-security",
+    "path": "skills/incident-responder",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/incident-responder",
+    "license": "MIT"
+  },
+  {
+    "name": "security-auditor",
+    "description": "Plan and execute security audits against controls frameworks (ISO 27001, SOC 2, NIST CSF) with evidence-based findings.",
+    "category": "data-and-security",
+    "path": "skills/security-auditor",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/security-auditor",
+    "license": "MIT"
+  },
+  {
+    "name": "devsecops-pro",
+    "description": "Embed security into DevOps — pipeline security gates, guardrails, and culture that ships fast and safe.",
+    "category": "data-and-security",
+    "path": "skills/devsecops-pro",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/devsecops-pro",
+    "license": "MIT"
+  },
+  {
+    "name": "resume-writer",
+    "description": "Draft, tailor, and polish resumes for specific roles using achievement-based bullets and recruiter conventions.",
+    "category": "career-and-learning",
+    "path": "skills/resume-writer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/resume-writer",
+    "license": "MIT"
+  },
+  {
+    "name": "interview-coach",
+    "description": "Run realistic mock interviews with structured feedback on answers, body language, and storytelling technique.",
+    "category": "career-and-learning",
+    "path": "skills/interview-coach",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/interview-coach",
+    "license": "MIT"
+  },
+  {
+    "name": "portfolio-builder",
+    "description": "Design and build a standout professional portfolio with case studies, project curation, and presentation.",
+    "category": "career-and-learning",
+    "path": "skills/portfolio-builder",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/portfolio-builder",
+    "license": "MIT"
+  },
+  {
+    "name": "career-coach",
+    "description": "Clarify career direction, set goals, and build actionable development plans through structured coaching.",
+    "category": "career-and-learning",
+    "path": "skills/career-coach",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/career-coach",
+    "license": "MIT"
+  },
+  {
+    "name": "linkedin-optimizer",
+    "description": "Rewrite LinkedIn profiles for recruiter search visibility, headline impact, and inbound opportunity flow.",
+    "category": "career-and-learning",
+    "path": "skills/linkedin-optimizer",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/linkedin-optimizer",
+    "license": "MIT"
+  },
+  {
+    "name": "technical-interview-prep",
+    "description": "Prepare for coding interviews with DSA patterns, timed practice, and communication coaching.",
+    "category": "career-and-learning",
+    "path": "skills/technical-interview-prep",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/technical-interview-prep",
+    "license": "MIT"
+  },
+  {
+    "name": "freelance-guide",
+    "description": "Launch and run a freelance practice covering positioning, pricing, contracts, and client management.",
+    "category": "career-and-learning",
+    "path": "skills/freelance-guide",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/freelance-guide",
+    "license": "MIT"
+  },
+  {
+    "name": "personal-branding",
+    "description": "Define and grow a professional personal brand with positioning, content pillars, and platform strategy.",
+    "category": "career-and-learning",
+    "path": "skills/personal-branding",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/personal-branding",
+    "license": "MIT"
+  },
+  {
+    "name": "salary-negotiator",
+    "description": "Prepare and execute compensation negotiations with market data, scripts, and counter-offer strategy.",
+    "category": "career-and-learning",
+    "path": "skills/salary-negotiator",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/salary-negotiator",
+    "license": "MIT"
+  },
+  {
+    "name": "system-design-interview",
+    "description": "Master system design interviews with a repeatable framework, component deep-dives, and trade-off discussions.",
+    "category": "career-and-learning",
+    "path": "skills/system-design-interview",
+    "source": "https://github.com/aicodedecode/awesome-muse-skills/tree/main/skills/system-design-interview",
+    "license": "MIT"
+  }
+]
