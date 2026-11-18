@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install muse-skills-100 into Muse as custom skills.
+"""Install muse-ai-skills into Muse as custom skills.
 
 Usage (run from the cloned repo root):
     python3 install.py               # install all 100 skills
@@ -96,7 +96,7 @@ def install_one(src_dir, dest_root, dry_run=False):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Install muse-skills-100 into Muse.")
+    ap = argparse.ArgumentParser(description="Install muse-ai-skills into Muse.")
     ap.add_argument("--only", nargs="+", default=None, help="Install only these skills")
     ap.add_argument("--dest", default=DEFAULT_DST, help="Custom-skills directory")
     ap.add_argument("--list", action="store_true", help="List skills, install nothing")
